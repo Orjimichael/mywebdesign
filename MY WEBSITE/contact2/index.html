@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <!-- ALERT MASSAGE START -->
+        <!-- <div class="alert-success"> 
+            <span>Massage Sent! Thank you for contacting us.</span>
+        </div> 
+
+        <div class="alert-error"> 
+            <span>Something went wrong! Please try again.</span>
+        </div> -->
+        <!-- ALERT MASSAGE START -->
+
+    <!-- CONTACT SECTION -->
+    <div class="contact-section">
+        <div class="contact-info">
+            <div><i class="fas fa-map-marker-alt"></i>Address, City, Country</div>
+            <div><i class="fas fa-envelope"></i>contact@email.com</div>
+            <div><i class="fas fa-phone"></i>+00 000 000 000</div>
+            <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form class="contact" action="https://formspree.io/f/xbjqbarl" method="post"></form>
+            <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+            <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+            <textarea name="massage" rows="5" placeholder="Your massage" required></textarea>
+            <input type="submit" name="submit" class="sent-btn" value="sent">
+        </div>
+    </div>
+    <!-- CONTACT SECTION END -->
+    
+</body>
+</html> 
